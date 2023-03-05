@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ycv"
+version = "0.1.0"
+description = "YAML checker and validity"
+authors = ["Milton Jesus <milton.lima@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+colorama = "^0.4.6"
+typer = "^0.7.0"
+termcolor = "^2.2.0"
+pygments = "^2.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
